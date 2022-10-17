@@ -1,0 +1,16 @@
+title: Job
+preset: page
+files: true
+fields:
+  excerpt:
+    label: Excerpt
+    type: textarea
+  date:
+    label: Date Posted
+    type: text
+  text:
+    label: Text
+    type: textarea
+    size: large
+    width: 4/4
+

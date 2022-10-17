@@ -1,0 +1,25 @@
+html {
+  height: 101%;
+  font-family: 'vegaantikvaregular';
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 15px;
+}
+body {
+  height: 100%;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1.36em;
+  background: #fff;
+  color: $Pcolor;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Page {
+  flex: 1;
+}

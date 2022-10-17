@@ -1,0 +1,86 @@
+/* Vegaantikva
+-------------------------------------------------- */
+@font-face {
+    font-family: 'vegaantikvaregular';
+    src: url('../fonts/vegaa-webfont.eot');
+    src: url('../fonts/vegaa-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vegaa-webfont.woff2') format('woff2'),
+         url('../fonts/vegaa-webfont.woff') format('woff'),
+         url('../fonts/vegaa-webfont.ttf') format('truetype'),
+         url('../fonts/vegaa-webfont.svg#vegaantikvaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vegaantikvasmallcapsregular';
+    src: url('../fonts/vegaasmacap-webfont.eot');
+    src: url('../fonts/vegaasmacap-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/vegaasmacap-webfont.woff2') format('woff2'),
+         url('../fonts/vegaasmacap-webfont.woff') format('woff'),
+         url('../fonts/vegaasmacap-webfont.ttf') format('truetype'),
+         url('../fonts/vegaasmacap-webfont.svg#vegaantikvasmallcapsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25em;
+  font-weight: 400;
+  margin-bottom: .5em;
+}
+h2 {
+  font-size: 2.2em;
+  line-height: 1.25em;
+  font-style: bolder;
+  margin-bottom: .5em;
+  color: $Pcolor;
+}
+h3 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: .5em;
+}
+h4 {
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.375em;
+  margin-bottom: .5em;
+}
+h1 a, h2 a, h3 a, h4 a {
+  color: inherit;
+  border: 0 !important;
+}
+p {
+  padding-bottom: 1em;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+span.numbers {
+  font-family: 'vegaantikvasmallcapsregular';
+  color: inherit;
+}
+
+.text-italic {
+  // font-style: italic;
+}
+.text-secondary {
+  color: $Scolor;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+a {
+  color:inherit;
+}

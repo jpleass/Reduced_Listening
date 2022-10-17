@@ -1,0 +1,30 @@
+.top-section {
+  margin-bottom: $gutter;
+  padding-bottom: $gutter;
+  border-bottom: dashed 1px $Scolor;
+  video {
+    max-width: 100%;
+    top: -40px;
+    background-color: #fff;
+    position: relative;
+    z-index: -1;
+    padding: 0 2rem;
+    right: 2rem;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='brightness'><feColorMatrix type='matrix' values='1.2 0 0 0 0 0 1.2 0 0 0 0 0 1.2 0 0 0 0 0 1.2 0'/></filter></svg>#brightness"); /* Firefox 3.5+ */
+    -webkit-filter: brightness(108.5%); /* Chrome 19+ & Safari 6+ */
+    @media only screen and (max-width: 768px) {
+      top: 0px;
+    }
+  }
+  &__information {
+    // margin-top: $gutter;
+    max-width: 36em;
+    padding: 0 2rem;
+    margin: auto;
+    // text-align: center;
+    // padding: 0 $gutter;
+    @media only screen and (max-width: 768px) {
+      text-align: right;
+    }
+  }
+}

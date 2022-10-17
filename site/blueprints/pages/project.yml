@@ -1,0 +1,42 @@
+title: Project
+preset: page
+pages: false
+files: true
+fields:
+  title:
+    label: Title
+    type:  text
+  year:
+    label: Year
+    type:  text
+  client:
+    label: Client
+    type:  text
+  track:
+    label: Track
+    type: files
+    query: page.audio
+    multiple: false
+  thumbnailImage:
+    label: Thumbnail
+    type: files
+    multiple: false
+    query: page.images
+  coverImage:
+    label: Cover Image
+    type: files
+    multiple: false
+    query: page.images
+    help: This is the banner image, please upload a file at lease 1920px wide.
+  gallery:
+    label: Gallery
+    type: files
+    query: page.images
+  frontpagetext:
+    label: Front Page Text
+    type:  textarea
+    help: Text that will appear on front page description
+  text:
+    label: Text
+    type:  textarea
+    help: Text for project level page

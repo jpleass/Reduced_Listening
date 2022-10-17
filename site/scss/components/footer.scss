@@ -1,0 +1,23 @@
+footer {
+  // padding: 0em 1em;
+  margin-bottom: 1em;
+  color: $Scolor;
+  // width: 100%;
+  @media screen and (max-width: 768px) {
+    text-align: center!important;
+    .text-right {
+      text-align: center;
+    }
+  }
+  a {
+    color: $Scolor;
+    padding-left: 1em;
+    @media screen and (max-width: 768px) {
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

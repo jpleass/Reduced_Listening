@@ -1,0 +1,17 @@
+title: Programmes
+columns:
+  - width: 4/4
+    sections:
+      fields:
+        type: fields
+        fields:
+          featured:
+            type: pages
+            query: page.children
+            headline: Featured
+      pages:
+        type: pages
+        headline: Programmes
+        duplicate: true
+        template: project
+        limit: 999

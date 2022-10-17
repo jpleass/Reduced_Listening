@@ -1,0 +1,30 @@
+.job {
+  &__text {
+    max-width: 38em;
+    margin: auto;
+    a {
+      text-decoration: underline;
+    }
+    ul {
+      list-style-type: circle;
+      li {
+        margin-bottom: 0.25rem;
+      }
+    }
+    h1 {
+      font-family: 'Arial';
+      font-weight: lighter;
+      text-align: center;
+      padding-bottom: $gutter;
+      width: 75%;
+      margin: auto;
+    }
+    h2,h3,h4,h5 {
+      font-family: 'Arial';
+      font-weight: lighter;
+      padding-top: $gutter;
+      padding-bottom: $gutter / 2;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.news {
+  padding: 1rem;
+  &__wrapper {
+    // border: dashed 1px $Pcolor;
+    margin-bottom: 2em;
+  }
+  &__item {
+    &__title {
+      font-weight: bolder;
+      text-decoration: underline;
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+    }
+    &__year {
+      font-size: 1em;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import "./app/vars";
+@import "./app/mixins";
+@import "./app/reset";
+@import "./app/animations";
+
+@import "./app/typography";
+@import "./app/defaults";
+@import "./app/links";
+@import "./app/images";
+@import "./app/main";
+
+@import "./components/grid";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/title";
+@import "./components/navigation";
+
+@import "./components/top-section";
+@import "./components/audioplayer";
+@import "./components/fancybox";
+@import "./components/loader";
+@import "./components/pagination";
+
+@import "./components/news";
+
+@import "./pages/archive";
+@import "./pages/featured";
+@import "./pages/project";
+@import "./pages/podcasts";
+@import "./pages/who";
+@import "./pages/job";
+
+@media only screen and (max-width: 978px) {
+  body.project main {
+    padding: 0em 1em;
+    #textSection {
+      max-width: 35em;
+      margin: auto;
+      margin-bottom: 2em;
+    }
+    img {
+      margin: auto;
+    }
+    small.caption {
+      text-align: center;
+    }
+  }
+}

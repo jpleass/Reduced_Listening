@@ -1,0 +1,44 @@
+title: Who We Are
+preset: page
+pages: false
+files: true
+fields:
+  textleft:
+    label: Text Left
+    type: textarea
+    size: large
+    width: 2/4
+  textright:
+    label: Text RIght
+    type: textarea
+    size: large
+    width: 2/4
+  staff:
+    label: Staff
+    type: structure
+    fields:
+      image:
+        label: Staff Image
+        type: files
+        multiple: false
+      name:
+        label: Staff Name
+        type: text
+      text:
+        label: Staff Text
+        type: textarea
+  staffOther:
+    label: Staff Other
+    type: structure
+    fields:
+      image:
+        label: Staff Image
+        type: files
+        multiple: false
+      name:
+        label: Staff Name
+        type: text
+      text:
+        label: Staff Text
+        type: textarea
+

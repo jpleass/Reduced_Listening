@@ -1,0 +1,47 @@
+{
+  "name": "environment",
+  "version": "1.0.0",
+  "description": "Kirby is a file-based CMS. Easy to setup. Easy to use. Flexible as hell.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel watch site/js/main.js site/scss/style.scss --out-dir assets --no-hmr --public-url ../",
+    "build": "parcel build site/js/main.js site/scss/style.scss --out-dir assets --public-url ../"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "@barba/core": "^2.4.0",
+    "@fancyapps/fancybox": "^3.5.7",
+    "@vimeo/player": "^2.10.0",
+    "beedle": "^0.8.1",
+    "browser-sync": "^2.26.7",
+    "disable-scroll": "^0.5.0",
+    "flexboxgrid": "^6.3.1",
+    "imagesloaded": "^4.1.4",
+    "infinite-scroll": "^3.0.6",
+    "jquery": "^3.4.1",
+    "jquery-ias": "^2.3.1",
+    "luminous-lightbox": "^2.3.2",
+    "masonry-layout": "^4.2.2",
+    "pannellum": "^2.5.3",
+    "panolens": "^0.11.0",
+    "parcel-bundler": "^1.12.3",
+    "resize-observer-polyfill": "^1.5.1",
+    "soundcloud": "^3.3.2",
+    "swiper": "^4.5.0",
+    "three": "^0.107.0",
+    "underscore": "^1.9.1",
+    "wavesurfer.js": "^3.2.0",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "node-hot-loader": "^1.16.3",
+    "sass": "^1.29.0",
+    "webpack": "^4.39.2"
+  }
+}

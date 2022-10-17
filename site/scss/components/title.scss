@@ -1,0 +1,22 @@
+.main-title {
+  width: 100%;
+  text-align: center;
+  font-size: 13.4vw;
+  letter-spacing: -0.03em;
+  line-height: 0.9em;
+  margin-bottom: 1rem;
+  pointer-events: none;
+  a {
+    color: $Pcolor;
+    text-decoration: none;
+    &:link,&:visted {
+      color: $Pcolor;
+    }
+  }
+  @media screen and (max-width: 620px){
+    font-size: 25vw; 
+    line-height: 0.8;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+}

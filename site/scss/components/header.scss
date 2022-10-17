@@ -1,0 +1,44 @@
+.header {
+  background-color: #FFF;
+  position: fixed;
+  padding: 5px 0;
+  width: 100%;
+  transform: translateY(-30px);
+  z-index: 999;
+  transition: all linear 0.2s;
+  a{
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__back {
+    white-space: nowrap;
+  }
+  &__client {
+    text-align: right;
+    @media screen and (max-width:768px){
+      display: none;
+    }
+  }
+  &__title {
+    @media screen and (max-width:768px){
+      text-align: right;
+    }
+  }
+  .container-fluid {
+    padding: 0 2rem;
+    @media screen and (max-width:768px){
+      padding: 0 1rem;
+    }
+  }
+}
+
+body.template__project header, body.default header {
+  transform: translateY(0px);
+}
+body.down header {
+  transform: translateY(0px);
+}
+
+
+

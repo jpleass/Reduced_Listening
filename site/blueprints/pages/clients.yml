@@ -1,0 +1,20 @@
+title: Clients
+preset: page
+pages: false
+files: false
+fields:
+  textleft:
+    label: Text Left
+    type: textarea
+    size: large
+    width: 2/4
+  textright:
+    label: Text RIght
+    type: textarea
+    size: large
+    width: 2/4
+  podcasts:
+    label: Podcast Gallery
+    type: pages
+    query: site.find('archive').children
+    width: 1/1
