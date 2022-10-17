@@ -66,6 +66,7 @@
       // text-decoration: underline;
       line-height: 1em;
       hyphens: auto;
+      margin-bottom: -0.1em;
 
       @media only screen and (max-width: 480px) {
         font-size: 1.8em;
@@ -76,6 +77,9 @@
       display: inline-block;
       padding: 0;
       margin: 0;
+      font-weight: lighter;
+
+      color: $Scolor;
       // padding-bottom: 5px;
       padding-top: 4px;
       @media only screen and (max-width: 480px) {
