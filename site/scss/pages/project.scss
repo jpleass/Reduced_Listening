@@ -10,13 +10,13 @@
     min-height: 550px;
     height: 80vh;
     margin-top: 30px;
-    background: black; 
+    background: black;
     position: relative;
   }
   &__text {
     padding: 0em 2em;
     padding-top: 4em;
-    @media screen and (max-width:768px){
+    @media screen and (max-width: 768px) {
       padding: 0;
       padding-top: 4em;
     }
@@ -30,7 +30,6 @@
     }
   }
   &__title {
-    font-family: 'Arial';
     text-align: center;
     font-weight: lighter;
     padding-bottom: $gutter;
@@ -39,7 +38,7 @@
   }
   &__images {
     padding: 0 2em;
-    @media screen and (max-width:768px){
+    @media screen and (max-width: 768px) {
       padding: 0;
     }
   }

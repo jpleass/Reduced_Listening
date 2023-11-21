@@ -2,26 +2,28 @@
   z-index: 10;
   padding: 0.5em 0em;
   padding-bottom: 0.35em;
-  background: #FFF;
+  background: #d5d5d5;
   font-size: 0.8em;
   width: 100%;
   position: sticky;
   top: 30px;
+  border-bottom: dashed 1px rgba(0, 0, 0, 0.25);
+
   &__controls {
     width: 48px;
     text-align: right;
     float: left;
     padding-left: 1em;
     padding-right: 1em;
-    padding-top: .125rem;
-    @media screen and (max-width:768px){
+    padding-top: 0.125rem;
+    @media screen and (max-width: 768px) {
       width: 40px;
       padding-left: 0;
     }
     a {
       color: $Scolor;
       padding-right: 0.35em;
-      &:hover{
+      &:hover {
         cursor: pointer;
         color: $Pcolor;
       }
@@ -34,11 +36,10 @@
     width: calc(100% - 200px);
     display: inline-block;
     white-space: nowrap;
-    @media screen and (max-width:768px){
+    @media screen and (max-width: 768px) {
       width: calc(100% - 145px);
       padding-right: 0;
     }
-   
   }
   &__loading {
     background-image: url(../images/Loading_new5.gif);
@@ -51,34 +52,34 @@
   &__meta {
     text-align: right;
     position: relative;
-    top: -.25rem;
+    top: -0.25rem;
     display: inline-block;
     right: 0;
     padding-left: 1em;
     white-space: nowrap;
     width: 60px;
-    @media screen and (max-width:768px){
+    @media screen and (max-width: 768px) {
       width: 30px;
       padding-right: 0;
     }
     a {
       color: $Scolor;
       padding-left: 0.35em;
-      &:hover{
+      &:hover {
         cursor: pointer;
         color: $Pcolor;
       }
     }
-    @media screen and (max-width:768px){
-     a {
-       display: none;
-     }
+    @media screen and (max-width: 768px) {
+      a {
+        display: none;
+      }
     }
   }
   .audio-loader {
     display: none;
     color: $Scolor;
-    padding: 0 .25rem;
+    padding: 0 0.25rem;
   }
   &--archive {
     transform: translateY(-40px);
@@ -99,7 +100,7 @@ body.is-playing {
     transform: translateY(0px);
   }
   &.down {
-  .audioplayer--archive {
+    .audioplayer--archive {
       transform: translateY(30px);
     }
   }
@@ -116,7 +117,6 @@ body.audio-loading {
     opacity: 0;
   }
 }
-
 
 body.no-track {
   .audioplayer {

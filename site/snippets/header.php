@@ -59,7 +59,9 @@
         <div class="container-fluid">
           <div class="row">
             <div class="text-center col-xs-12">
-              <a href="<?php echo $site->homePage()->url() ?>">Reduced Listening</a>
+              <a class="text-center" href="<?php echo $site->homePage()->url() ?>">
+                <img style="height:15px; margin: auto; padding: 4px 0 2px 0;" src="<?= kirby()->urls()->assets() ?>/images/rl_logo_new.svg" />
+              </a>
             </div>
           </div>
         </div>

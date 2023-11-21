@@ -1,12 +1,16 @@
 .header {
-  background-color: #FFF;
+  // background-color: #fff;
+  background-color: #d5d5d5;
+
   position: fixed;
   padding: 5px 0;
   width: 100%;
-  transform: translateY(-30px);
+  transform: translateY(-100%);
   z-index: 999;
   transition: all linear 0.2s;
-  a{
+  border-bottom: dashed 1px rgba(0, 0, 0, 0.25);
+  font-family: "monument-mono";
+  a {
     &:hover {
       text-decoration: underline;
     }
@@ -16,29 +20,27 @@
   }
   &__client {
     text-align: right;
-    @media screen and (max-width:768px){
+    @media screen and (max-width: 768px) {
       display: none;
     }
   }
   &__title {
-    @media screen and (max-width:768px){
+    @media screen and (max-width: 768px) {
       text-align: right;
     }
   }
   .container-fluid {
     padding: 0 2rem;
-    @media screen and (max-width:768px){
+    @media screen and (max-width: 768px) {
       padding: 0 1rem;
     }
   }
 }
 
-body.template__project header, body.default header {
+body.template__project header,
+body.default header {
   transform: translateY(0px);
 }
 body.down header {
   transform: translateY(0px);
 }
-
-
-

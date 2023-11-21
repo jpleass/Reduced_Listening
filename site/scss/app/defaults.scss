@@ -1,6 +1,6 @@
 html {
   height: 101%;
-  font-family: 'vegaantikvaregular';
+  font-family: "monument";
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-size: 15px;
@@ -10,7 +10,8 @@ body {
   margin: 0 auto;
   font-size: 1em;
   line-height: 1.36em;
-  background: #fff;
+  // background: #fff;
+  background-color: #d5d5d5;
   color: $Pcolor;
 }
 
@@ -22,4 +23,18 @@ body {
 
 .Page {
   flex: 1;
+}
+
+.m-hidden {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+.m-show {
+  display: block;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }

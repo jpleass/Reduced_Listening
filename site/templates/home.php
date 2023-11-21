@@ -9,7 +9,9 @@
 </div>
 
 <div class='main-title'>
-  Reduced Listening
+  <!-- Reduced Listening -->
+  <img class="m-hidden" src="<?= kirby()->urls()->assets() ?>/images/rl_logo_new.svg" />
+  <img class="m-show" src="<?= kirby()->urls()->assets() ?>/images/rl_logo_new_mobile.svg" />
 </div>
 <?= snippet('top-section') ?>
 
